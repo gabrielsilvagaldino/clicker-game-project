@@ -3,7 +3,7 @@ import { combineReducers } from "redux";
 const INITIAL_STATE = {
   clickValue: 1,
   passiveEarning: 0,
-  totalValue: 0,
+  totalValue: Number(localStorage.getItem('totalValue')),
 }
 
 const clickReducer = (state = INITIAL_STATE, action) => {
@@ -16,7 +16,7 @@ const clickReducer = (state = INITIAL_STATE, action) => {
       }
   
     default:
-      return state
+      return state;
   }
 }
 
