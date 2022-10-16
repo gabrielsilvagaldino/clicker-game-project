@@ -8,7 +8,7 @@ Este projeto será feito usando o React como base.
   <summary> 📝 Tarefas a fazer </summary>
   <ol>
     <li> <s>Fazer o componente "Clicavel" e funcional</s> </li>
-    <li> Fazer a lógica dos cliques e dos upgrades </li>
+    <li> <s>Fazer a lógica dos cliques e dos upgrades</s> </li>
     <li> Fazer o site salvar as informações a cada 1 minuto </li>
     <li> Fazer o CSS da página </li>
   </ol>
